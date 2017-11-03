@@ -109,6 +109,8 @@ module.exports = {
       '.jsx',
     ],
     alias: {
+      "src": path.resolve('./src'),      
+      "styles": path.resolve('./src/styles'),      
       // @remove-on-eject-begin
       // Resolve Babel runtime relative to react-scripts.
       // It usually still works on npm 3 without this but it would be
